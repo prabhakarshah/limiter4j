@@ -1,0 +1,13 @@
+POST http://localhost:8080/GetRateLimits
+Content-Type: application/json
+
+{
+  "name": "requests_per_sec",
+  "uniqueKey": "account.id=1234",
+  "hits": 1,
+  "duration": 60000,
+  "limit": 10
+}
+
+
+###
